@@ -1,0 +1,19 @@
+<Config targetProject="ARPG_Server">
+	<!-- 符文 -->
+	<javaModel csvfile="charm.csv" targetPackage="com.vo"
+		modelName="CharmData"/>
+	<!-- 卡牌 -->
+	<javaModel csvfile="xianfu_card.csv" targetPackage="com.vo"
+		modelName="CardData"/>
+	<!-- 道具 -->
+	<javaModel csvfile="item.csv" targetPackage="com.vo"
+		modelName="ItemData"/>
+	<!-- 公会-黄金大陆-资源点 -->
+	<javaModel csvfile="alliance_goldenContinentArea.csv" targetPackage="com.vo"
+		modelName="GoldenContinentAreaData" overwrite="0" />
+	<!-- 公会-黄金大陆-守护领主 -->
+	<javaModel csvfile="alliance_goldenContinentBoss.csv" targetPackage="com.vo"
+		modelName="GoldenContinentBossData" overwrite="0" />
+	<javaModel csvfile="soul.csv" targetPackage="com.vo"
+		modelName="SoulData" overwrite="0" />
+</Config> 
